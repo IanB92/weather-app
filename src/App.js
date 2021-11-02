@@ -27,7 +27,7 @@ export default function App() {
   const handleSubmit = (zip) => {
     console.log("App - handleSubmit - zip", zip);
     setZipCode(zip);
-  };
+  }
   return (
     <div className="App">
       <h1>weather app</h1>
